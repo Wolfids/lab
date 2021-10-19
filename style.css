@@ -1,0 +1,77 @@
+body{
+    font-family:'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.block{
+    margin: 30px 0 0 0;
+    display: flex;
+}
+img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.card{
+    padding: 20px;
+    margin: 0 10px 0 0;
+    border: 1px solid #22ad78;
+    background-color: rgb(222, 255, 221);
+    display: flex;
+    flex-direction: column;
+
+}
+h2{
+    color:forestgreen;
+    letter-spacing: 1.5px;
+    margin-bottom: 50px;
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+.card__age{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(25, 75, 47);
+    margin-bottom: 15px;
+}
+.card__zodiac{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style:oblique;
+    margin-bottom: 15px;
+    color: rgb(16, 44, 28);
+}
+.card__profession{
+    font-size: 30px;
+    color: rgb(17, 51, 32);
+    font-style:oblique;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+}
+.card__link:hover{
+    color:rgb(41, 70, 9);
+    background-color: rgb(199, 175, 67);
+}
+.card__link{
+    color:lightseagreen;
+    background-color: lightyellow;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 15px 15px;
+    text-align: center;
+}
